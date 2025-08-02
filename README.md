@@ -27,6 +27,3 @@ This is my personal portfolio website, built to showcase my skills, projects, an
 - Good communication  
 - Problem solving  
 - Team collaboration  
-
-│   └── (your project images)
-└── README.md
