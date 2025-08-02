@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>PERSONAL PORTIFOLIO</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="home">
+            <nav>
+                <div class="logo">Yasmin's Portfolio</div>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img class="circle" src="image.jpg">
+                <p class="highlight">HELLO!</p>
+                <p>WELCOME TO MY PORTFOLIO</p>
+                <h1>I'm <span class="highlight">Yasmin Ali</span>.</h1>
+                <h2>Software Engineering Student | Frontend Developer</h2>
+                <button><a href="#about">ABOUT ME</a></button>
+                <ul class="social-icons">
+                    <li><a href="https://www.linkedin.com/in/yasmin-ali-96360a339" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jzzmiiinn" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/jzzmiiinn?igsh=ZXZkM200cTFmeWUx" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://x.com/Jzzmiiinn?t=L02zZ3ANgxIO1aRAcSbr4A&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-wrapper">
+                <img src="image1.jpg" alt="Yasmin's Photo" class="about-img">
+                <div class="description">
+                <h1>About Me</h1>
+                <p>
+                   My name is Yasmin Ali, a Software Engineering student at Jimma University with a deep passion for building impactful digital solutions. I began my journey in web development by focusing on frontend technologies, where I learned to craft user-friendly and visually appealing interfaces using HTML, CSS, and JavaScript.
+                    As I grow in my career, I’m now expanding my skills to the backend, aiming to become a well-rounded Full Stack Developer. I believe that understanding both the client and server sides of an application will allow me to create complete, scalable, and efficient systems.
+                    I’m driven by curiosity, creativity, and the desire to use technology to solve real-world problems. My goal is to continue learning, building, and contributing to projects that make a difference.
+                </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h1 class="main-heading">SKILLS</h1>
+                <div class="skills-section">
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li>HTML & CSS – Creating structured and responsive web layouts</li>
+                        <li>JavaScript – Adding interactivity and building dynamic user interfaces</li>
+                        <li>Java – OOP fundamentals and desktop applications</li>
+                        <li>C++ – Problem-solving and algorithm design</li>
+                        <li>Git & GitHub – Version control and collaborative development</li>
+                    </ul>
+                </div>
+                <div class="skills-section">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Good Communication – Clearly conveying ideas in writing and speaking</li>
+                        <li>Problem Solving – Analyzing challenges and implementing effective solutions</li>
+                        <li>Team Collaboration – Working productively in group settings</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>PROJECT</h1>
+            <br>
+            <div class="container">
+                <div class="cards">
+                    <img src="explore.jpg">
+                    <h2>EXPLORE ETHIOPIA</h2>
+                    <p>A fullscreen slider showcasing Ethiopia's beauty with animated transitions, favorites, and search filtering using JavaScript and localStorage.</p>
+                </div>
+                <div class="cards">
+                    <img src="todo list.jpg">
+                    <h2>TODO LIST WITH CATEGORIES</h2>
+                    <p>A productivity web app with nested categories, persistent local storage, and a clean, responsive UI.</p>
+                </div>
+                <div class="cards">
+                    <img src="countdown.jpg">
+                    <h2>COUNTDOWN MANAGER</h2>
+                    <p>A countdown tracker with customizable titles and dates, built using JavaScript DOM manipulation and form validation. </p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h1>GET IN TOUCH</h1>
+            <p><strong>Name:</strong> Yasmin Ali Aime</p>
+            <p><strong>Email:</strong> jzzmiiinnali@gmail.com</p>
+            <p><strong>Mobile:</strong> +251961970874</p>
+            <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+            <form>
+                <h3>Contact Me</h3>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button>SEND MESSAGE</button>
+            </form>
+        </footer>
+    </body>
+</html>
